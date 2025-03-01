@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-slate-400">
+    <header class="bg-slate-100 rounded-sm">
+            <div class=" navbar bg-white flex justify-between w-11/12 mx-auto rounded-sm">
+              <div class="logo flex justify-center items-center">
+                <img class="w-12" src="./A5-Dev-Board-main/assets/logo.png" alt="logo">
+                <h2 class="text-3xl">Dev<span class="font-bold text-3xl">Board</span></h2>
+              </div>
+              <div class="right flex justify-center items-center gap-4 ">
+                <button class="flex justify-center items-center gap-2 bg-slate-50 rounded-lg p-2">
+               <img src="./A5-Dev-Board-main/assets/checkbox.png" alt="checkbox" class="w-8">
+               <h3 class="text-2xl font-bold" id="checkbox">23</h3>
+            </button>
+             <button class="bg-slate-50 rounded"><img src="./A5-Dev-Board-main/assets/theme-btn.png" alt="theme" class="w-8" id="theme"></button>
+              </div>  
+        </div>
+    </header>
+    <main class="flex  mx-auto">
+     <section class="w-9/12 bg-white rounded-sm">
+      <div class="grid grid-cols-3 justify-between items-center gap-4 mt-5">
+        <div class="flex rounded-sm bg-slate-50 gap-1 justify-center items-center">
+          <div class="w-10 bg-white rounded-full">
+            <img src="./A5-Dev-Board-main/assets/checkbox.png" alt="checkbox" class="w-6">
+          </div>
+          <div>
+            <p>Task Assigned</p>
+            <h3 class="font-bold text-lg" id="task">05</h3>
+          </div>
+        </div>
+
+        <div class="flex rounded-sm bg-slate-50 gap-1 justify-center items-center" id="blogs">
+          <div class="w-10">
+            <img src="./A5-Dev-Board-main/assets/board.png" alt="board" class="w-12"></div>
+          <div>
+            <p class="text-lg">Discover Something <br> New Today!</p> 
+          </div>
+        </div>
+
+        <div class="flex rounded-sm bg-slate-50 gap-1 justify-center items-center">
+          <div class="w-10  bg-white rounded-sm">
+            <img src="./A5-Dev-Board-main/assets/calender.png" alt="calender" class="w-6"></div>
+          <div id="date" >
+            
+          </div>
+        </div>
+
+
+      </div>
+
+      <hr>
+
+      <div class="grid grid-cols-3 justify-between items-center gap-6 mt-5">
+
+        <div class="card rounded-sm bg-slate-50 gap-1 justify-center items-start">
+          <p class="p-2 bg-white rounded-sm">ShopEase</p>
+          <h4 class="font-bold">Fix Mobile Button Issue </h4>
+          <p class="p-2 bg-white rounded-sm">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+            and ensure onClick works properly</p>
+            <hr>
+            <div class="button flex justify-center items-center gap-4">
+              <p>Deadline <br>
+              <span class="font-bold">21 March, 2025</span></p>
+              <button class="btn btn-primary">Completed</button>
+            </div>
+        </div>
+
+        <div class="card rounded-sm bg-slate-50 gap-1 justify-center items-start">
+          <p class="p-2 bg-white rounded-sm">CloudSync</p>
+          <h4 class="font-bold">Add Dark Mode </h4>
+          <p class="p-2 bg-white rounded-sm">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
+            <hr>
+            <div class="button flex justify-center items-center gap-4">
+              <p>Deadline <br>
+              <span class="font-bold">21 March, 2025</span></p>
+              <button class="btn btn-primary">Completed</button>
+            </div>
+        </div>
+
+
+        <div class="card rounded-sm bg-slate-50 gap-1 justify-center items-start">
+          <p class="p-2 bg-white rounded-sm">SwiftPay</p>
+          <h4 class="font-bold">Optimize  Home page  </h4>
+          <p class="p-2 bg-white rounded-sm">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+            and ensure onClick works properly</p>
+            <hr>
+            <div class="button flex justify-center items-center gap-4">
+              <p>Deadline <br>
+              <span class="font-bold">21 March, 2025</span></p>
+              <button class="btn btn-primary">Completed</button>
+            </div>
+        </div>
+
+
+        <div class="card rounded-sm bg-slate-50 gap-1 justify-center items-start">
+          <p class="p-2 bg-white rounded-sm">Meta</p>
+          <h4 class="font-bold">Add new emoji <img src="" alt=""> </h4>
+          <p class="p-2 bg-white rounded-sm">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+            and ensure onClick works properly</p>
+            <hr>
+            <div class="button flex justify-center items-center gap-4">
+              <p>Deadline <br>
+              <span class="font-bold">21 March, 2025</span></p>
+              <button class="btn btn-primary">Completed</button>
+            </div>
+        </div>
+
+
+        <div class="card rounded-sm bg-slate-50 gap-1 justify-center items-start">
+          <p class="p-2 bg-white rounded-sm">Google LLC</p>
+          <h4 class="font-bold">Integrate OpenAI API  </h4>
+          <p class="p-2 bg-white rounded-sm">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+            and ensure onClick works properly</p>
+            <hr>
+            <div class="button flex justify-center items-center gap-4">
+              <p>Deadline <br>
+              <span class="font-bold">21 March, 2025</span></p>
+              <button class="btn btn-primary">Completed</button>
+            </div>
+        </div>
+
+
+        <div class="card rounded-sm bg-slate-50 gap-1 justify-center items-start">
+          <p class="p-2 bg-white rounded-sm">Glassdoar</p>
+          <h4 class="font-bold">Improve Job searching  </h4>
+          <p class="p-2 bg-white rounded-sm">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+            and ensure onClick works properly</p>
+            <hr>
+            <div class="button flex justify-center items-center gap-4">
+              <p>Deadline <br>
+              <span class="font-bold">21 March, 2025</span></p>
+              <button class="btn btn-primary">Completed</button>
+            </div>
+        </div>
+
+      </div>
+      
+     </section>
+     <section class="w-3/12  bg-slate-100 rounded-sm">
+
+     </section>
+    </main>
+
+
+
+
+    <script src="./scripts/home.js"></script>
+</body>
+</html>
