@@ -60,6 +60,11 @@ document.getElementById("a6").addEventListener("click",
     })
 
     
+document.getElementById("clear").addEventListener("click",
+function(event){
+document.getElementById("history").innerHTML = "";
+})
+    
 
 
 
